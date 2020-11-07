@@ -1,0 +1,23 @@
+{
+  "name": "AWS-Demo",
+  "version": "1.0.0",
+  "description": "Practice deploying node.js to Amazon Web Services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atlee19/AWS-Demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atlee19/AWS-Demo/issues"
+  },
+  "homepage": "https://github.com/atlee19/AWS-Demo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
