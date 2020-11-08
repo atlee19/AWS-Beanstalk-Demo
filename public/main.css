@@ -1,4 +1,21 @@
+
+@font-face {
+    font-family: Graphic;
+    src: url(GraphikSuper.otf);
+  }
+
+  body{
+      background-color: #D25299;
+  }
+
+
 .message{
     display: flex;
     justify-content: center;
+}
+
+.message__tag{
+    font-family: Graphic;
+    color: #C9F227;
+    font-size: 100px;
 }
