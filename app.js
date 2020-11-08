@@ -1,11 +1,11 @@
 const express = require('express')
 const app = express()
-const port = process.env.PORT
+const path = require('path')
+const port = process.env.PORT || 3000
+
+app.use(express.static(path.join(__dirname, 'public')))
 
 
-app.get('/', (req, res) => {
-    res.send(`<h1>Hello<h1>`)
-})
 
 app.get('/:name', (req, res) => {
     res.send(`<h1>Hello ${req.params.name}<h1>`)
